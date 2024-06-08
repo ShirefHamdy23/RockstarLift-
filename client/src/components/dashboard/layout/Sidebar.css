@@ -1,0 +1,47 @@
+.sidebar {
+  height: 100%;
+  width: 17%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  background-color: var(--mainColor);
+  padding-top: 20px;
+  transition: 0.3s;
+  padding: 0;
+  z-index: 20;
+  overflow: hidden;
+  padding-bottom: 3rem;
+}
+
+@media screen and (max-width: 768px) {
+  .col .col-md-2 {
+    padding: 0 !important;
+  }
+  .sidebar {
+    padding-bottom: 0;
+    padding: 0 !important;
+    width: 100%;
+  }
+  .admin_layout .sidebar_layout {
+    text-align: center;
+  }
+  .admin_layout .sidebar_layout .user_profile img {
+    width: 200px !important;
+    height: 200px !important;
+  }
+  .sidebar {
+    width: 100%;
+    height: auto;
+    position: relative;
+  }
+}
+
+@media only screen and (max-width: 1760px) and (min-width: 800px) {
+  .sidebar {
+    width: 17%;
+  }
+  .admin_layout .sidebar_layout .user_profile img {
+    width: 100px !important;
+    height: 100px !important;
+  }
+}
