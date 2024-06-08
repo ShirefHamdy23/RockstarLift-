@@ -32,8 +32,8 @@ app.use(cors(corsOptions));
 // Body parser middleware
 app.use(bodyParser.text({ type: "/" }));
 
-// Serve static files from the frontend build directory
-app.use(express.static(path.join(__dirname, 'client/build')));
+// Serve static files from the frontend dist directory
+app.use(express.static(path.join(__dirname, '../client/dist')));
 
 // API routes
 app.use("/api", apiRoutes);
@@ -41,7 +41,7 @@ app.use("/api/user", userRoutes);
 
 // Catch-all route to serve the frontend's index.html for any route not handled by the above routes
 app.get('*', (req, res) => {
-  res.sendFile(path.join(__dirname, 'client/build', 'index.html'));
+  res.sendFile(path.join(__dirname, '../client/dist', 'index.html'));
 });
 
 // Handle undefined routes with a custom error
