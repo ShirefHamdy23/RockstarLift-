@@ -8,7 +8,7 @@ import { connect } from "react-redux";
 import { Button, Card, Col, Container, ListGroup, Row } from "react-bootstrap";
 import { fetchImages, fetchProperty } from "../../../redux/action/properties";
 import { Link, useParams } from "react-router-dom";
-import Loader from "./../../../Loader";
+import Loader from "../../../Loader";
 import home1 from "../../../assets/Tests/Blue-Heron-Homes-Feature-2023-scaled.jpg";
 import home2 from "../../../assets/Tests/Detached singlefamily home in a suburban neighborhood  810x540.jpg";
 import home3 from "../../../assets/Tests/Elkow-Farms-Barclay-3.jpg";

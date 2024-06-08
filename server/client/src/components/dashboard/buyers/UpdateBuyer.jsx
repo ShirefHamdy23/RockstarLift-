@@ -4,7 +4,7 @@ import { connect } from "react-redux";
 import {
   fetchBuyerById,
   updateBuyer,
-} from "./../../../redux/action/buyerAction";
+} from "../../../redux/action/buyerAction";
 import { ToastContainer } from "react-toastify";
 
 const userTypes = [

@@ -1,7 +1,7 @@
 import { Container, Navbar, Nav, Image } from "react-bootstrap";
 import logo from "../../assets/logo.png";
 import { connect } from "react-redux";
-import { logout } from "./../../redux/action/userAction";
+import { logout } from "../../redux/action/userAction";
 import { useNavigate } from "react-router-dom";
 import { ToastContainer } from "react-toastify";
 import { useState, useEffect } from "react";

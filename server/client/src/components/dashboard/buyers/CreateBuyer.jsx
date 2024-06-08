@@ -1,7 +1,7 @@
 import { useState } from "react";
 import { Button, Col, Form, Modal, Row } from "react-bootstrap";
 import { connect } from "react-redux";
-import { addNewBuyer } from "./../../../redux/action/buyerAction";
+import { addNewBuyer } from "../../../redux/action/buyerAction";
 import { ToastContainer } from "react-toastify";
 
 const userTypes = [

@@ -6,7 +6,7 @@ import {
   fetchProperties,
 } from "../../redux/action/properties";
 import { useEffect, useState } from "react";
-import Loader from "./../../Loader";
+import Loader from "../../Loader";
 
 const filterKeyArray = ["city", "county", "state", "zipCode"];
 const PropertyPage = (props) => {

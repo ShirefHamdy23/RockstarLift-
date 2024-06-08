@@ -5,7 +5,7 @@ import home from "../../../assets/hom2.jpg";
 import PropertySearch from "./PropertySearch";
 import { useState, useEffect } from "react";
 import PropertyDashboardCard from "./PropertyDashboardCard";
-import Loader from "./../../../Loader";
+import Loader from "../../../Loader";
 import { connect } from "react-redux";
 import {
   deleteProperty,

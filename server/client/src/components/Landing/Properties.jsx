@@ -1,6 +1,6 @@
 import { Image, Col, Row, Container } from "react-bootstrap"
 import test from "../../assets/service.jpeg"
-import PropCard from "./../Property/PropCard"
+import PropCard from "../Property/PropCard"
 const Properties = () => {
   return (
     <div style={{ position: "relative" }}>

@@ -5,7 +5,7 @@ import { connect } from "react-redux";
 import { getAllBuyers, deleteBuyer } from "../../../redux/action/buyerAction";
 import { useEffect } from "react";
 import moment from "moment/moment";
-import Loader from "./../../../Loader";
+import Loader from "../../../Loader";
 import { useState } from "react";
 import UpdateBuyer from "./UpdateBuyer";
 

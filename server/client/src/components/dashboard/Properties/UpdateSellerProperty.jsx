@@ -8,7 +8,7 @@ import {
   fetchProperty,
   updateProperty,
 } from "../../../redux/action/properties";
-import Loader from "./../../../Loader";
+import Loader from "../../../Loader";
 
 const arrayTypes = [
   "Single Family Home",

@@ -9,7 +9,7 @@ import { Link, useNavigate } from "react-router-dom";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faArrowAltCircleLeft } from "@fortawesome/free-solid-svg-icons";
 import { fetchAddressByUser } from "../../../redux/action/addressAction";
-import { deleteAddress } from "./../../../redux/action/addressAction";
+import { deleteAddress } from "../../../redux/action/addressAction";
 import { ToastContainer } from "react-toastify";
 
 const DisplayRequests = (props) => {

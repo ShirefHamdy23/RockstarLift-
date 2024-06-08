@@ -2,7 +2,7 @@ import { useState } from "react";
 import { Button, Modal, Form, Row, Col } from "react-bootstrap";
 import { sendMessage } from "../../redux/action/messageAction";
 import { connect } from "react-redux";
-import Properties from "./../Landing/Properties";
+import Properties from "../Landing/Properties";
 
 const PropertyInquire = (props) => {
   const [modalShow, setModalShow] = useState(false);

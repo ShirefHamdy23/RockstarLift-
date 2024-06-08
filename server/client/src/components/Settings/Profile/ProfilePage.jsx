@@ -26,10 +26,10 @@ import {
   fetchMyProfile,
   updateProfile,
 } from "../../../redux/action/userAction";
-import Loader from "./../../../Loader";
+import Loader from "../../../Loader";
 import { Link, useNavigate } from "react-router-dom";
 import { mdiNumeric3CircleOutline } from "@mdi/js";
-import { logout } from "./../../../redux/action/userAction";
+import { logout } from "../../../redux/action/userAction";
 const ProfilePage = (props) => {
   const id = localStorage.getItem("userId");
   const [imageUrl, setImageUrl] = useState(
