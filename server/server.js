@@ -24,7 +24,7 @@ app.use(cors(corsOptions));
 app.use("/api", apiRoutes);
 app.use("/api/user", userRoutes);
 
-app.all("*", (req, res, next) => {
+app.all("http://localhost:5173/", (req, res, next) => {
   next(new ApiError(`Cant find this route ${req.originalUrl}`, 400));
 });
 
