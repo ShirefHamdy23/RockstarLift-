@@ -33,7 +33,7 @@ app.use(cors(corsOptions));
 app.use(bodyParser.text({ type: "/" }));
 
 // Serve static files from the frontend dist directory
-app.use(express.static(path.join(__dirname, '../client/dist')));
+app.use(express.static(path.join(__dirname, '../server/client/dist')));
 
 // API routes
 app.use("/api", apiRoutes);
@@ -41,7 +41,7 @@ app.use("/api/user", userRoutes);
 
 // Catch-all route to serve the frontend's index.html for any route not handled by the above routes
 app.get('*', (req, res) => {
-  res.sendFile(path.join(__dirname, '../client/dist', 'index.html'));
+  res.sendFile(path.join(__dirname, '../server/client/dist', 'index.html'));
 });
 
 // Handle undefined routes with a custom error
